@@ -1,8 +1,12 @@
-# Getting Started with Create React App
+# :memo: To do list. (Work in progress)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## :computer: Page preview
+[Demo To do list - Work in progress](https://awilku.github.io/toDoListApplication/)
 
-## Available Scripts
+[![app-Screen.jpg](https://i.postimg.cc/dQS73q2f/app-Screen.jpg)](https://postimg.cc/yWc6rCrh)
+## :page_facing_up: Description
+As a participant in the [YouCode](https://youcode.pl/frontend-developer/) course, I created a simple project "to do list" which was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). This application will help you organize your tasks, add and delete them.This project 
+## :memo: Available Scripts
 
 In the project directory, you can run:
 
@@ -38,33 +42,7 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##
+<p align="center">
+  <img width="128" src="https://i.postimg.cc/MHZdn0T0/icon.png" alt="Adrian Wilk">
+</p>
