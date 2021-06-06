@@ -1,7 +1,7 @@
 # :memo: To do list. (Work in progress)
 
 ## :computer: Page preview
-[Demo To do list - Work in progress](https://awilku.github.io/toDoListApplication/)
+[Demo To do list - Work in progress](https://awilku.github.io/todo-list-react/)
 
 [![app-Screen.jpg](https://i.postimg.cc/dQS73q2f/app-Screen.jpg)](https://postimg.cc/yWc6rCrh)
 ## :page_facing_up: Description
