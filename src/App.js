@@ -6,9 +6,9 @@ import Tasks from "./Tasks";
 import Container from "./Container";
 
 const tasks = [
-    { id: 1, content: "zjeść obiad", done: false },
-    { id: 2, content: "kupic coś", done: true },
-  ];
+  { id: 1, content: "zjeść obiad", done: false },
+  { id: 2, content: "kupic coś", done: true },
+];
 const hideDoneTask = false;
 
 function App() {
