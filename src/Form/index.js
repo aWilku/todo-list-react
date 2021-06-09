@@ -6,4 +6,5 @@ const Form = () => (
         <button className="form__button">Dodaj zadanie</button>
     </form>
 );
+
 export default Form;
