@@ -1,11 +1,15 @@
-# :memo: To do list. (Work in progress)
+# :memo: To do list.
 
 ## :computer: Page preview
-[Demo To do list - Work in progress](https://awilku.github.io/todo-list-react/)
+[Demo To do list](https://awilku.github.io/todo-list-react/)
 
-[![app-Screen.jpg](https://i.postimg.cc/dQS73q2f/app-Screen.jpg)](https://postimg.cc/yWc6rCrh)
 ## :page_facing_up: Description
-As a participant in the [YouCode](https://youcode.pl/frontend-developer/) course, I created a simple project "to do list" which was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). This application will help you organize your tasks, add and delete them.This project 
+As a participant in the [YouCode](https://youcode.pl/frontend-developer/) course, I created a simple project "to do list" which was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). This application will help you organize your tasks, add and delete them.
+## :receipt:Instruction
+
+Write your task in field and click "Dodaj zadanie. Now your task is on the task list. You can mark them as done or delete them. You can hide completed tasks or mark all tasks as completed.
+
+![toDoList.gif](https://i.postimg.cc/3N7Qfz59/toDoList.gif)
 ## :memo: Available Scripts
 
 In the project directory, you can run:
@@ -37,6 +41,12 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## :gear:Technologies used
+- React
+- HTML
+- CSS (grid/ flexbox/ media queries)
+- ES6+
+- BEM
 ##
 <p align="center">
   <img width="128" src="https://i.postimg.cc/MHZdn0T0/icon.png" alt="Adrian Wilk">
