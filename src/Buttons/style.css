@@ -30,4 +30,5 @@
 
 .buttons__button:disabled {
     color: hsl(0, 0%, 70%);
+    cursor: not-allowed;
 }
