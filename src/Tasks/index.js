@@ -1,6 +1,6 @@
 import "./style.css"
 
-const Tasks = ({ tasks, hideDone }) => (
+const Tasks = ({ tasks, hideDone, removeTask }) => (
     <ul className="taskList">
         {tasks.map(task => (
             <li key={task.id} className={`taskList__element ${(task.done && hideDone) ? "taskList__element--hidden" : ""}`}>
@@ -10,7 +10,10 @@ const Tasks = ({ tasks, hideDone }) => (
                 <span className={`taskList__text${task.done ? " taskList__text--done" : ""}`}>
                     {task.content}
                 </span>
-                <button className="taskList__button taskList__button--remove">
+                <button
+                    className="taskList__button taskList__button--remove"
+                    onClick={() => removeTask(task.id)}
+                >
                     🗑
                 </button>
             </li>
