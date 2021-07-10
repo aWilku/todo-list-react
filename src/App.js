@@ -22,7 +22,7 @@ function App() {
     setTasks(tasks => tasks.map(task => {
       if (task.id === id) {
         return { ...task, done: !task.done };
-      }
+      };
 
       return task;
     }));
@@ -43,7 +43,7 @@ function App() {
         done: false,
         id: tasks.length ? tasks[tasks.length - 1].id + 1 : 1,
       },
-    ])
+    ]);
   };
 
   return (
@@ -80,5 +80,5 @@ function App() {
       />
     </Container>
   );
-}
+};
 export default App;
