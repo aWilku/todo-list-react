@@ -4,9 +4,7 @@ export const useTask = () => {
     const savedTaskInLocaleStorage = localStorage.getItem("tasks");
 
     const [tasks, setTasks] = useState(
-        savedTaskInLocaleStorage
-            ? JSON.parse(savedTaskInLocaleStorage)
-            : []
+        JSON.parse(savedTaskInLocaleStorage) || []
     );
 
     useEffect(() => {
