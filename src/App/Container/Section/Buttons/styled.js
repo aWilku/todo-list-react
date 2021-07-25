@@ -14,21 +14,21 @@ export const StyledButtonContainer = styled.div`
 
 export const StyledButton = styled.button`
     border: none;
-    color: hsl(180, 100%, 20%);
+    color: ${({ theme }) => theme.colors.buttonColors.teal.basic};
     background-color: transparent;
     transition: 1s;
 
     &:hover{
-        color: hsl(180, 100%, 40%);
+        color: ${({ theme }) => theme.colors.buttonColors.teal.hover};
         cursor: pointer;
     }
 
     &:active{
-        color: hsl(180, 100%, 50%);
+        color: ${({ theme }) => theme.colors.buttonColors.teal.activ};
     }
 
     &:disabled{
-        color: hsl(0, 0%, 70%);
+        color: ${({ theme }) => theme.colors.buttonColors.disabled};
         cursor: not-allowed;
     }
 `;
