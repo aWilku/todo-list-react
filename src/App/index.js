@@ -1,7 +1,5 @@
 import { useState } from "react";
 import { useTask } from "./useTasks";
-import { theme } from "../Theme"
-import { ThemeProvider } from "styled-components";
 import Buttons from "./Container/Section/Buttons";
 import Form from "./Container/Section/Form";
 import Header from "./Container/Header";
@@ -25,40 +23,38 @@ function App() {
   } = useTask();
 
   return (
-    <ThemeProvider theme={theme}>
-      <Container>
-        <Header
-          title="Lista zadań"
-        />
+    <Container>
+      <Header
+        title="Lista zadań"
+      />
 
-        <Section
-          title="Dodaj nowe zadanie"
-          body={
-            <Form addNewTask={addNewTask} />
-          }
-        />
+      <Section
+        title="Dodaj nowe zadanie"
+        body={
+          <Form addNewTask={addNewTask} />
+        }
+      />
 
-        <Section
-          title="Lista zadań"
-          body={
-            <Tasks
-              tasks={tasks}
-              hideDone={hideDone}
-              removeTask={removeTask}
-              toggleTaskDone={toggleTaskDone}
-            />
-          }
-          extraHeaderContent={
-            <Buttons
-              tasks={tasks}
-              hideDone={hideDone}
-              toggleHideDone={toggleHideDone}
-              setAllDone={setAllDone}
-            />
-          }
-        />
-      </Container>
-    </ThemeProvider>
+      <Section
+        title="Lista zadań"
+        body={
+          <Tasks
+            tasks={tasks}
+            hideDone={hideDone}
+            removeTask={removeTask}
+            toggleTaskDone={toggleTaskDone}
+          />
+        }
+        extraHeaderContent={
+          <Buttons
+            tasks={tasks}
+            hideDone={hideDone}
+            toggleHideDone={toggleHideDone}
+            setAllDone={setAllDone}
+          />
+        }
+      />
+    </Container>
   );
 };
 export default App;
