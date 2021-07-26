@@ -27,5 +27,5 @@ export const theme = {
         }
     },
 
-    breakpoint: 767,
+    breakpoint: 768,
 };
