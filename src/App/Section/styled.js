@@ -5,7 +5,7 @@ export const StyledSection = styled.section`
     margin: 0 auto 10px;
 `;
 
-export const StyledSectionHeader = styled.header`
+export const SubHeader = styled.header`
     display: grid;
     grid-template-columns: 2fr auto auto;
 
@@ -14,7 +14,7 @@ export const StyledSectionHeader = styled.header`
     }
 `;
 
-export const StyledSectionTitle = styled.h2`
+export const SubTitle = styled.h2`
     padding: 20px;
     margin: 0;
     align-items: center;

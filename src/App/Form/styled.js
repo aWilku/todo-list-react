@@ -10,7 +10,7 @@ export const StyledForm = styled.form`
     }
 `;
 
-export const StyledInput = styled.input`
+export const Input = styled.input`
     flex-grow: 1;
     padding: 10px;
     margin: 10px;
@@ -21,7 +21,7 @@ export const StyledInput = styled.input`
     }
 `;
 
-export const StyledFormButton = styled.button`
+export const Button = styled.button`
     padding: 10px;
     margin: 10px;
     border: none;
