@@ -5,7 +5,7 @@ import Form from "./Form";
 import Header from "./Header";
 import Section from "./Section";
 import Tasks from "./Tasks";
-import Container from "./Container";
+import Container from "./Container/styled";
 
 function App() {
   const [hideDone, setHideDone] = useState(false);
